@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Voiture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Liste des Voitures</h1>
+        <form id="voitureForm">
+            <label for="voiture">Voiture:</label>
+            <select id="voiture">
+                <option value="">Sélectionnez une voiture</option>
+                <!-- Options seront ajoutées dynamiquement par JavaScript -->
+            </select>
+            <div class="button-group">
+                <button id="historiqueBtn" type="button" class="btn">Historique</button>
+                <button id="supprimerBtn" type="button" class="btn">Supprimer</button>
+                <a href="ajouter_voitures.html" class="btn"><button id="addButton">Ajouter</button></a>
+                <button id="modifierBtn" type="button" class="btn">Modifier</button>
+            </div>
+        </form>
+    </div>
+    <script src="voiture.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Associations</title>
+    <link rel="stylesheet" href="associations.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Liste des Associations</h1>
+    <div id="associationsContainer">
+        <select id="associationList">
+            <option value="">Sélectionnez une Association</option>
+            <!-- Les options seront ajoutées ici dynamiquement -->
+        </select>
+        <div id="buttonsContainer">
+            <a href="ajouter_associations.html"><button id="addButton">Ajouter</button></a>
+            <button id="supprimerBtn" type="button">Supprimer</button>
+            <button id="refreshButton">Actualiser</button>
+        </div>
+    </div>
+    </div>
+    <script src="asso_script.js"></script>
+</body>
+</html>
+
