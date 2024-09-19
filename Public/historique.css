@@ -1,0 +1,68 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Titre */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Conteneur historique */
+#historiqueContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Largeur relative au viewport */
+    max-width: 800px; /* Largeur maximale */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Bouton Revenir */
+#revenirButton {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#revenirButton:hover {
+    background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #historiqueContainer {
+        width: 95%;
+        padding: 10px;
+    }
+
+    #revenirButton {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

@@ -1,0 +1,86 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add button */
+#addButton {
+    margin-right: 10px;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+@media (max-width: 600px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn:last-child {
+        margin-bottom: 0;
+    }
+}

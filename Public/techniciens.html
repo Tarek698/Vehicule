@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Technicien</title>
+    <link rel="stylesheet" href="stylestech.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Liste des Techniciens</h1>
+        <form id="technicienForm">
+            <label for="technicien">Technicien:</label>
+            <select id="technicien">
+                <option value="">Sélectionnez un technicien</option>
+                <!-- Options seront ajoutées dynamiquement par JavaScript -->
+            </select>
+            <div class="button-group">
+                <button id="modifierBtn" type="button" class="btn">Modifier</button>
+                <button id="supprimerBtn" type="button" class="btn">Supprimer</button>
+                <a href="ajouter_techniciens.html" class="btn">Ajouter</a>
+            </div>
+        </form>
+    </div>
+    <script src="technicien.js"></script>
+</body>
+</html>
+

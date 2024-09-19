@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Voiture</title>
+    <link rel="stylesheet" href="modifier_voiture.css"> <!-- Assurez-vous d'avoir un fichier CSS pour styliser la page -->
+</head>
+<body>
+    <div class="container"> <!-- Ajout de la classe container -->
+        <h1>Modifier Voiture</h1>
+        <form id="modifierVoitureForm">
+            <label for="reparations">Réparations :</label><br>
+            <textarea id="reparations" name="reparations" rows="4" cols="50" required></textarea><br>
+
+            <label for="etat">État :</label><br>
+            <input type="text" id="etat" name="etat" required><br>
+
+            <button type="submit" class="btn">Enregistrer</button>
+        </form>
+    </div>
+    <script src="modifier_voiture.js"></script> <!-- Assurez-vous d'inclure un fichier JavaScript pour la logique côté client -->
+</body>
+</html>
+
